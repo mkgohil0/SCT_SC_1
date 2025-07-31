@@ -1,1 +1,20 @@
+/* Custom styles to apply the Inter font */
+body {
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
+/* Custom focus ring color */
+.form-input:focus, .form-textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.4); /* Indigo focus ring */
+}
+
+/* Simple transition for buttons */
+.btn {
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
